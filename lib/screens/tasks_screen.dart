@@ -25,9 +25,11 @@ class _TasksScreenState extends State<TasksScreen> {
         onPressed: () {
           showModalBottomSheet(
             context: context,
-            builder: (context) => AddTaskScreen((newTaskTitle) {
-              print(newTaskTitle);
-            }),
+            builder: (context) => AddTaskScreen(
+                //   (newTaskTitle) {
+                //   print(newTaskTitle);
+                // }
+                ),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(20.0),
